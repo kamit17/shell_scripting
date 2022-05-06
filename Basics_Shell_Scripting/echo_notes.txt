@@ -1,0 +1,33 @@
+Echo is used to :
+Display a message
+Display a command output
+Display a variable value
+
+to display a command  you need to enclose the command in "$()"
+
+eg: echo "$(ls)"
+
+Echo can be used to display variable
+
+eg; echo "$USER"
+
+
+echo syntax:
+echo [-enE] "[arguments]
+
+when the -n option is used , the trailing new line is suppresed"
+
+-e is used to exclude backslash escaped character willbe interpreted/executed
+\n -- Created new line from where it was used
+\b: Removes one space back from where it is used
+\t: create horizontal tab spaces
+\a:create sound alert
+\v: create vertical tab space
+\r: carriage return
+\c: Suppresess any furhter output
+\ \: Escapes or elimintate the special purpose of your escaped characters
+
+
+--echo command with colors:
+
+echo -e "\033[0:32mhello]"

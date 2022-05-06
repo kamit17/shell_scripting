@@ -1,0 +1,10 @@
+file descriptors -- To relay result of error of success.
+0 -- stdin
+1- stdout
+2--stderr
+> file_name defautl to success output
+1>file_name success output
+2>file_name error output
+
+1>filename 2>filename both will store into a single file
+1>filename 2>&1
