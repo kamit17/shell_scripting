@@ -1,2 +1,2 @@
 # shell_scripting
-Shell Scripting practice
+Collection of Shell scripts .
