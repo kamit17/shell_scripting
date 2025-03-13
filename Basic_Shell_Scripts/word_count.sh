@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Program to search for a specific word that occurs in a file and count its occurence.
-
+#Author:Unknown
 echo "Enter the word:"
 read target_word
 echo "Enter the filename:"
