@@ -1,5 +1,5 @@
 #!/bin/bash
-
+###
 #Program to search for a specific word that occurs in a file and count its occurence.
 #Author:Unknown
 ##################################################
